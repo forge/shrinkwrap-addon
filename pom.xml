@@ -8,7 +8,7 @@
    <modelVersion>4.0.0</modelVersion>
    <groupId>org.jboss.forge.addon</groupId>
    <artifactId>shrinkwrap</artifactId>
-   <version>1.2.6</version>
+   <version>1.2.7-SNAPSHOT</version>
    <developers>
       <developer>
          <id>gastaldi</id>
@@ -72,7 +72,7 @@
       <connection>scm:git:git://github.com/forge/shrinkwrap-addon.git</connection>
       <developerConnection>scm:git:git@github.com:forge/shrinkwrap-addon.git</developerConnection>
       <url>http://github.com/forge/shrinkwrap-addon</url>
-      <tag>1.2.6</tag>
+      <tag>HEAD</tag>
    </scm>
    <dependencyManagement>
       <dependencies>
