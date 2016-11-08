@@ -1,0 +1,24 @@
+== JBoss Forge Shrinkwrap Addon
+:idprefix: id_ 
+
+This addon *provides classes* for use in other addons. 
+You *must* use this addon if you want to use Shrinkwrap in your addon. Make sure that your addon excludes any Shrinkwrap dependencies..
+        
+=== Dependencies: None 
+
+== Setup
+
+This Addon requires the following installation steps.
+
+=== Add configuration to you addon's pom.xml 
+
+To use this addon, you must add it as a dependency in the *pom.xml* of your `forge-addon` classified artifact:
+[source,xml]
+----
+<dependency>
+   <groupId>org.jboss.forge.addon</groupId>
+   <artifactId>shrinkwrap</artifactId>
+   <classifier>forge-addon</classifier>
+   <version>1.2.6</version>
+</dependency>
+----
